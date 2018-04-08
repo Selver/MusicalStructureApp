@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="dimen0">0dp</dimen>
+    <dimen name="dimen8">8dp</dimen>
+    <dimen name="dimen16">16dp</dimen>
+    <dimen name="dimen32">32dp</dimen>
+    <dimen name="text_size32">32sp</dimen>
+    <dimen name="text_size40">40sp</dimen>
+</resources>

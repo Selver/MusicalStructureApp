@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen0"
+        android:layout_weight="1"
+        android:text="@string/music_box"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:padding="@dimen/dimen8"
+        android:textSize="@dimen/text_size40"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="@dimen/dimen16"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen0"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:padding="@dimen/dimen8"
+        android:layout_marginBottom="@dimen/dimen8"
+        android:fontFamily="sans-serif"
+        android:textSize="@dimen/text_size32"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"/>
+
+
+    <Button
+        android:id="@+id/store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif"
+        android:text="@string/store"
+        android:padding="@dimen/dimen8"
+        android:layout_marginBottom="@dimen/dimen8"
+        android:textSize="@dimen/text_size32"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/search"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/search"
+        android:background="@color/colorAccent"
+        android:padding="@dimen/dimen8"
+        android:textSize="@dimen/text_size32"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen0"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/happy_hits"
+        style="@style/textViewStyle"
+        android:text="@string/happy_hits"
+        android:background="#F57C00"/>
+
+    <TextView
+        android:id="@+id/feel_good_house"
+        style="@style/textViewStyle"
+        android:text="@string/feel_good_house"
+        android:background="#8BC34A"/>
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen0"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rock_classics"
+                style="@style/textViewStyle"
+                android:background="#9C27B0"
+                android:text="@string/rock_classics" />
+
+            <TextView
+                android:id="@+id/peaceful_guitar"
+                style="@style/textViewStyle"
+                android:background="#00BCD4"
+                android:text="@string/peaceful_guitar" />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen0"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/music_for_concentration"
+                style="@style/textViewStyle"
+                android:text="@string/music_for_studying"
+                android:background="#CDDC39"/>
+
+            <TextView
+                android:id="@+id/jazz_vibes"
+                style="@style/textViewStyle"
+                android:text="@string/jazz_vibes"
+                android:background="#03A9F4"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
