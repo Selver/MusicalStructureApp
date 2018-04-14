@@ -5,4 +5,12 @@
     <color name="colorAccent">#00BFA5</color>
     <color name="teal">#009688</color>
     <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="happyHitsColor">#F57C00</color>
+    <color name="feelGoodHouseColor">#8BC34A</color>
+    <color name="rockClassicsColor">#9C27B0</color>
+    <color name="peacefulGuitarColor">#00BCD4</color>
+    <color name="musicForStudyingColor">#CDDC39</color>
+    <color name="jazzVibesColor">#03A9F4</color>
+
 </resources>

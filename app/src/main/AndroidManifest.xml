@@ -18,22 +18,27 @@
         </activity>
         <activity
             android:name=".HomeActivity"
-            android:label="@string/home"/>
-            <!--android:theme="@style/AppTheme.NoActionBar" />-->
+            android:label="@string/home" />
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
         <activity
             android:name=".HappyHitsActivity"
-            android:label="@string/happy_hits"/>
-        <activity android:name=".FeelGoodHouseActivity"
-            android:label="@string/feel_good_house"/>
-        <activity android:name=".RockClassicsActivity"
-            android:label="@string/rock_classics"/>
-        <activity android:name=".PeacefulGuitarActivity"
-            android:label="@string/peaceful_guitar"/>
-        <activity android:name=".MusicForStudyingActivity"
-            android:label="@string/music_for_studying"/>
-        <activity android:name=".JazzVibesActivity"
-            android:label="@string/jazz_vibes"/>
-
+            android:label="@string/happy_hits" />
+        <activity
+            android:name=".FeelGoodHouseActivity"
+            android:label="@string/feel_good_house" />
+        <activity
+            android:name=".RockClassicsActivity"
+            android:label="@string/rock_classics" />
+        <activity
+            android:name=".PeacefulGuitarActivity"
+            android:label="@string/peaceful_guitar" />
+        <activity
+            android:name=".MusicForStudyingActivity"
+            android:label="@string/music_for_studying" />
+        <activity
+            android:name=".JazzVibesActivity"
+            android:label="@string/jazz_vibes" />
+        <activity android:name=".NowPlayingActivity"></activity>
     </application>
 
 </manifest>

@@ -15,8 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Find the view and set a click listener on it.
         TextView home = (TextView) findViewById(R.id.home);
-        home.setOnClickListener(new View.OnClickListener()
-        {
+        home.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the home View is clicked on.
             @Override
             public void onClick(View view) {

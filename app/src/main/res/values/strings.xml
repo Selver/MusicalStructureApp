@@ -11,4 +11,6 @@
     <string name="music_box">MUSIC BOX</string>
     <string name="store">Store</string>
     <string name="search">Search</string>
+    <string name="playlists">PLAYLISTS</string>
+
 </resources>

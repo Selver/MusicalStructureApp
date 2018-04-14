@@ -3,6 +3,15 @@
     <dimen name="dimen8">8dp</dimen>
     <dimen name="dimen16">16dp</dimen>
     <dimen name="dimen32">32dp</dimen>
+    <dimen name="dimen50">50dp</dimen>
     <dimen name="text_size32">32sp</dimen>
     <dimen name="text_size40">40sp</dimen>
+    <dimen name="dimen40">40dp</dimen>
+    <dimen name="text_size50">50sp</dimen>
+    <dimen name="dimen250">250dp</dimen>
+    <dimen name="dimen100">100dp</dimen>
+    <dimen name="text_size24">24sp</dimen>
+    <dimen name="text_size18">18sp</dimen>
+    <dimen name="text_size30">30sp</dimen>
+
 </resources>
