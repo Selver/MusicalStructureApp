@@ -26,8 +26,8 @@ public class NowPlayingActivity extends AppCompatActivity {
         artistNameText = findViewById(R.id.artist_text_view2);
         linearLayout = findViewById(R.id.linear_layout);
 
-        songNameText.setText(incoming.getStringExtra(HappyHitsActivity.EXTRA_SONG_NAME));
-        artistNameText.setText(incoming.getStringExtra(HappyHitsActivity.EXTRA_ARTIST_NAME));
-        linearLayout.setBackgroundColor(incoming.getIntExtra(HappyHitsActivity.EXTRA_COLOR_NAME, 0));
+        songNameText.setText(incoming.getStringExtra(ListOfSongsActivity.EXTRA_SONG_NAME));
+        artistNameText.setText(incoming.getStringExtra(ListOfSongsActivity.EXTRA_ARTIST_NAME));
+        linearLayout.setBackgroundColor(incoming.getIntExtra(ListOfSongsActivity.EXTRA_COLOR_NAME, 0));
     }
 }

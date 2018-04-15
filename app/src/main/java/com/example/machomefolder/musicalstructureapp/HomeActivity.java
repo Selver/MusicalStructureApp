@@ -10,6 +10,7 @@ import android.content.Intent;
 public class HomeActivity extends AppCompatActivity {
     //EXTRA_DATA are the container of the values.
     public static final String EXTRA_COLOR_NAME = "color";
+    public static final String EXTRA_PLAYLIST_NAME = "playListName";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,14 +19,16 @@ public class HomeActivity extends AppCompatActivity {
 
         // Find the view and set a click listener on it.
         final TextView happyHits = (TextView) findViewById(R.id.happy_hits);
+
         happyHits.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the activity is clicked on.
             @Override
             public void onClick(View view) {
-                Intent happyHitsIntent = new Intent(HomeActivity.this, HappyHitsActivity.class);
+                Intent happyHitsIntent = new Intent(HomeActivity.this, ListOfSongsActivity.class);
                 if (happyHits.getBackground() instanceof ColorDrawable) {
                     ColorDrawable cd = (ColorDrawable) happyHits.getBackground();
                     happyHitsIntent.putExtra(EXTRA_COLOR_NAME, cd.getColor());
+                    happyHitsIntent.putExtra(EXTRA_PLAYLIST_NAME, getString(R.string.happy_hits));
                 }
                 startActivity(happyHitsIntent);
             }
@@ -37,10 +40,11 @@ public class HomeActivity extends AppCompatActivity {
             // The code in this method will be executed when the activity is clicked on.
             @Override
             public void onClick(View view) {
-                Intent feelGoodHouseIntent = new Intent(HomeActivity.this, FeelGoodHouseActivity.class);
+                Intent feelGoodHouseIntent = new Intent(HomeActivity.this, ListOfSongsActivity.class);
                 if (feelGoodHouse.getBackground() instanceof ColorDrawable) {
                     ColorDrawable cd = (ColorDrawable) feelGoodHouse.getBackground();
                     feelGoodHouseIntent.putExtra(EXTRA_COLOR_NAME, cd.getColor());
+                    feelGoodHouseIntent.putExtra(EXTRA_PLAYLIST_NAME, getString(R.string.feel_good_house));
                 }
                 startActivity(feelGoodHouseIntent);
             }
@@ -52,25 +56,27 @@ public class HomeActivity extends AppCompatActivity {
             // The code in this method will be executed when the activity is clicked on.
             @Override
             public void onClick(View view) {
-                Intent jazzVibesIntent = new Intent(HomeActivity.this, JazzVibesActivity.class);
+                Intent jazzVibesIntent = new Intent(HomeActivity.this, ListOfSongsActivity.class);
                 if (jazzVibes.getBackground() instanceof ColorDrawable) {
                     ColorDrawable cd = (ColorDrawable) jazzVibes.getBackground();
                     jazzVibesIntent.putExtra(EXTRA_COLOR_NAME, cd.getColor());
+                    jazzVibesIntent.putExtra(EXTRA_PLAYLIST_NAME, getString(R.string.jazz_vibes));
                 }
                 startActivity(jazzVibesIntent);
             }
         });
 
         // Find the view and set a click listener on it.
-        final TextView musicForConcentration = (TextView) findViewById(R.id.music_for_concentration);
-        musicForConcentration.setOnClickListener(new View.OnClickListener() {
+        final TextView musicForStudying = (TextView) findViewById(R.id.music_for_studying);
+        musicForStudying.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the activity is clicked on.
             @Override
             public void onClick(View view) {
-                Intent musicForConcentrationIntent = new Intent(HomeActivity.this, MusicForStudyingActivity.class);
-                if (musicForConcentration.getBackground() instanceof ColorDrawable) {
-                    ColorDrawable cd = (ColorDrawable) musicForConcentration.getBackground();
+                Intent musicForConcentrationIntent = new Intent(HomeActivity.this, ListOfSongsActivity.class);
+                if (musicForStudying.getBackground() instanceof ColorDrawable) {
+                    ColorDrawable cd = (ColorDrawable) musicForStudying.getBackground();
                     musicForConcentrationIntent.putExtra(EXTRA_COLOR_NAME, cd.getColor());
+                    musicForConcentrationIntent.putExtra(EXTRA_PLAYLIST_NAME, getString(R.string.music_for_studying));
                 }
                 startActivity(musicForConcentrationIntent);
             }
@@ -82,10 +88,11 @@ public class HomeActivity extends AppCompatActivity {
             // The code in this method will be executed when the activity is clicked on.
             @Override
             public void onClick(View view) {
-                Intent peacefulGuitarIntent = new Intent(HomeActivity.this, PeacefulGuitarActivity.class);
+                Intent peacefulGuitarIntent = new Intent(HomeActivity.this, ListOfSongsActivity.class);
                 if (peacefulGuitar.getBackground() instanceof ColorDrawable) {
                     ColorDrawable cd = (ColorDrawable) peacefulGuitar.getBackground();
                     peacefulGuitarIntent.putExtra(EXTRA_COLOR_NAME, cd.getColor());
+                    peacefulGuitarIntent.putExtra(EXTRA_PLAYLIST_NAME, getString(R.string.peaceful_guitar));
                 }
                 startActivity(peacefulGuitarIntent);
             }
@@ -97,10 +104,11 @@ public class HomeActivity extends AppCompatActivity {
             // The code in this method will be executed when the activity is clicked on.
             @Override
             public void onClick(View view) {
-                Intent rockClassicsIntent = new Intent(HomeActivity.this, RockClassicsActivity.class);
+                Intent rockClassicsIntent = new Intent(HomeActivity.this, ListOfSongsActivity.class);
                 if (rockClassics.getBackground() instanceof ColorDrawable) {
                     ColorDrawable cd = (ColorDrawable) rockClassics.getBackground();
                     rockClassicsIntent.putExtra(EXTRA_COLOR_NAME, cd.getColor());
+                    rockClassicsIntent.putExtra(EXTRA_PLAYLIST_NAME, getString(R.string.rock_classics));
                 }
                 startActivity(rockClassicsIntent);
             }

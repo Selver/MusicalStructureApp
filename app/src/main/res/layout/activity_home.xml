@@ -35,13 +35,13 @@
             android:id="@+id/rock_classics"
             style="@style/textViewStyle"
             android:background="@color/rockClassicsColor"
-            android:text="@string/rock_classics" />
+            android:text="@string/rock_classics"/>
 
         <TextView
             android:id="@+id/peaceful_guitar"
             style="@style/textViewStyle"
             android:background="@color/peacefulGuitarColor"
-            android:text="@string/peaceful_guitar" />
+            android:text="@string/peaceful_guitar"/>
 
     </LinearLayout>
 
@@ -52,7 +52,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/music_for_concentration"
+            android:id="@+id/music_for_studying"
             style="@style/textViewStyle"
             android:background="@color/musicForStudyingColor"
             android:text="@string/music_for_studying" />

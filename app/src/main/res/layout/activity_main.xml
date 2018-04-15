@@ -5,24 +5,17 @@
     android:background="@color/colorPrimary"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/dimen40"
-        android:layout_marginLeft="@dimen/dimen16"
-        android:layout_marginTop="@dimen/dimen50"
-        android:fontFamily="sans-serif"
-        android:gravity="center"
-        android:padding="@dimen/dimen8"
-        android:text="@string/music_box"
-        android:textColor="@color/white"
-        android:textSize="@dimen/text_size50" />
-
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dimen250"
-        android:layout_marginBottom="@dimen/dimen100"
+        android:layout_height="@dimen/dimen0"
+        android:layout_weight="1"
         android:background="@drawable/music_notes1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen0"
+        android:orientation="vertical"
+        android:layout_weight="1">
 
     <Button
         android:id="@+id/home"
@@ -32,9 +25,11 @@
         android:background="@color/colorAccent"
         android:fontFamily="sans-serif"
         android:padding="@dimen/dimen8"
-        android:paddingLeft="@dimen/dimen16"
+        android:layout_marginTop="@dimen/dimen100"
         android:text="@string/playlists"
         android:textColor="@color/white"
         android:textSize="@dimen/text_size32" />
+
+    </LinearLayout>
 
 </LinearLayout>

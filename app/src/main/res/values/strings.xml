@@ -8,9 +8,10 @@
     <string name="peaceful_guitar">Peaceful Guitar</string>
     <string name="music_for_studying">Music For Studying</string>
     <string name="jazz_vibes">Jazz Vibes</string>
-    <string name="music_box">MUSIC BOX</string>
+    <string name="music_box">Music Box</string>
     <string name="store">Store</string>
     <string name="search">Search</string>
-    <string name="playlists">PLAYLISTS</string>
+    <string name="playlists">Playlists</string>
+    <string name="now_playing">Now Playing</string>
 
 </resources>
